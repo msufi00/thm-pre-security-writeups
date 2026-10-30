@@ -1,11 +1,11 @@
-# 01 - Defensive Security Intro
+# Task 1 - Defensive Security Introduction
 
 ## Room / Topic
-- Defensive Security Intro
+- Defensive Security Introduction
 
 ## Objective
-- Mengenal pasti apa itu defensive security.
-- Memahami peranan orang yang menjaga sistem, rangkaian, dan data.
+- Identify what defensive security is.
+- Understand the role of people who protect systems, networks, and data.
 
 ## Key Concepts
 - Security controls
@@ -14,29 +14,29 @@
 - Monitoring and logging
 - Incident response
 
-## Questions & Answers
+## Tasks & Answers
 
-### Question 1
-**Question:** Apakah maksud defensive security?
+### Task 1
+**Question:** What is defensive security?
 
-**Answer:** Defensive security merujuk kepada langkah-langkah yang diambil untuk melindungi sistem, rangkaian, data, dan pengguna daripada serangan, ancaman, dan kelemahan keselamatan.
+**Answer:** Defensive security refers to the measures taken to protect systems, networks, data, and users from attacks, threats, and vulnerabilities.
 
-### Question 2
-**Question:** Apakah contoh aktiviti defensive security?
+### Task 2
+**Question:** What are examples of defensive security activities?
 
-**Answer:** Contohnya firewall, antivirus, patching, access control, encryption, logging, monitoring, backup, serta latihan keselamatan pengguna.
+**Answer:** Examples include firewalls, antivirus software, patching, access control, encryption, logging, monitoring, backups, and user security awareness training.
 
-### Question 3
-**Question:** Kenapa defensive security penting?
+### Task 3
+**Question:** Why is defensive security important?
 
-**Answer:** Kerana organisasi perlu mengurangkan risiko kebocoran data, kehilangan aset, dan gangguan perkhidmatan akibat serangan siber.
+**Answer:** Because organizations need to reduce the risk of data breaches, loss of assets, and service disruption caused by cyber attacks.
 
 ## Notes
-- Defensive security fokus kepada pencegahan dan pengesanan.
-- Ia bukan hanya teknologi, tetapi juga proses dan budaya keselamatan.
-- Memahami ancaman dan risiko adalah asas sebelum membuat langkah perlindungan.
+- Defensive security focuses on prevention and detection.
+- It is not only about technology, but also about processes and security culture.
+- Understanding threats and risks is the foundation before implementing protection measures.
 
 ## Reflection
-- Saya belajar bahawa cyber security bukan hanya tentang serangan, tetapi juga bagaimana organisasi mempertahankan aset mereka.
-- Saya perlu lebih memahami konsep monitoring, hardening, dan response planning.
-- Kesimpulannya, defensive security adalah lapisan utama dalam keselamatan maklumat.
+- I learned that cyber security is not only about attacks, but also about how organizations protect their assets.
+- I need to understand monitoring, hardening, and response planning more deeply.
+- In conclusion, defensive security is the primary layer of information security.
