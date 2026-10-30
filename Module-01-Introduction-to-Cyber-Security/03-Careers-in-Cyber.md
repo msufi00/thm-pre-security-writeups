@@ -1,11 +1,11 @@
-# 03 - Careers in Cyber
+# Task 3 - Careers in Cyber
 
 ## Room / Topic
 - Careers in Cyber
 
 ## Objective
-- Mengenal pasti pelbagai bidang kerja dalam cyber security.
-- Mengetahui jenis peranan dan kemahiran yang diperlukan.
+- Identify various career paths in cyber security.
+- Understand the types of roles and the skills required for them.
 
 ## Key Concepts
 - Security analyst
@@ -15,29 +15,29 @@
 - Security engineer
 - Digital forensics
 
-## Questions & Answers
+## Tasks & Answers
 
-### Question 1
-**Question:** Apakah contoh pekerjaan dalam bidang cyber security?
+### Task 1
+**Question:** What are examples of jobs in cyber security?
 
-**Answer:** Contoh pekerjaan termasuk SOC analyst, security analyst, penetration tester, incident responder, security engineer, dan forensic analyst.
+**Answer:** Examples include SOC analyst, security analyst, penetration tester, incident responder, security engineer, and forensic analyst.
 
-### Question 2
-**Question:** Apakah kemahiran yang penting untuk pekerjaan cyber security?
+### Task 2
+**Question:** What skills are important for cyber security jobs?
 
-**Answer:** Kemahiran penting termasuk pemahaman tentang rangkaian, sistem operasi, scripting, analisis log, komunikasi, serta sentiasa belajar tentang ancaman baharu.
+**Answer:** Important skills include understanding networks, operating systems, scripting, log analysis, communication, and continuous learning about new threats.
 
-### Question 3
-**Question:** Kenapa bidang ini penting dalam organisasi?
+### Task 3
+**Question:** Why is this field important in organizations?
 
-**Answer:** Kerana organisasi memerlukan pakar yang boleh melindungi sistem, mengesan ancaman, dan menyahut tindak balas terhadap insiden keselamatan.
+**Answer:** Because organizations need specialists who can protect systems, detect threats, and respond to security incidents.
 
 ## Notes
-- Bidang cyber security mempunyai banyak laluan kerjaya bergantung pada minat dan kemahiran.
-- Beberapa role lebih fokus kepada pencegahan, ada yang fokus kepada pengesanan, dan ada yang fokus kepada tindak balas.
-- Pembelajaran berterusan sangat penting kerana keadaan ancaman berubah dengan cepat.
+- The cyber security field has many career paths depending on interests and skills.
+- Some roles focus more on prevention, some on detection, and some on response.
+- Continuous learning is essential because threats evolve rapidly.
 
 ## Reflection
-- Saya belajar bahawa cyber security bukan sekadar satu kerja, tetapi satu bidang yang luas dan berdaya saing.
-- Saya perlu membina asas yang kuat dalam networking, Linux, dan analisis log sebelum memilih laluan tertentu.
-- Kesimpulannya, bidang cyber security memerlukan kombinasi kemahiran teknikal, analitikal, dan sikap terus belajar.
+- I learned that cyber security is not just one job, but a broad and competitive field.
+- I need to build a strong foundation in networking, Linux, and log analysis before choosing a specific career path.
+- In conclusion, cyber security requires a combination of technical skills, analytical thinking, and a mindset of lifelong learning.
