@@ -1,19 +1,19 @@
-# 04 - Notes and Reflection
+# Task 4 - Notes and Reflection
 
-## Objektif Refleksi
-- Menyusun perkara yang telah dipelajari.
-- Mengenal pasti tema penting daripada modul ini.
-- Menyimpan nota peribadi untuk rujukan akan datang.
+## Reflection Objectives
+- Organize what has been learned.
+- Identify important themes from this module.
+- Save personal notes for future reference.
 
-## Ringkasan Pembelajaran
-- Defensive security ialah langkah yang melindungi sistem dan data.
-- Offensive security membantu menilai kelemahan secara beretika.
-- Bidang cyber security mempunyai banyak peranan yang berbeza.
+## Learning Summary
+- Defensive security is the set of measures that protects systems and data.
+- Offensive security helps evaluate weaknesses ethically.
+- The cyber security field includes many different roles.
 
-## Nota Peribadi
-- Saya perlu lebih sering menulis ringkasan supaya lebih mudah diingati.
-- Penting untuk menghubungkan konsep dari satu topik ke topik lain.
-- Saya perlu terus membina asas Linux, networking, dan analitikal.
+## Personal Notes
+- I need to write summaries more often so they are easier to remember.
+- It is important to connect concepts from one topic to another.
+- I need to continue building a strong foundation in Linux, networking, and analytical thinking.
 
-## Refleksi
-Modul ini memberi gambaran umum tentang dunia cyber security. Saya kini lebih faham bahawa keselamatan digital bukan sekadar teknologi, tetapi gabungan antara teknologi, proses, serta pemikiran strategik. Saya juga sedar bahawa untuk maju dalam bidang ini, saya perlu konsisten belajar dan mengulang kaji setiap konsep.
+## Reflection
+This module gave me an overview of the world of cyber security. I now understand that digital security is not just technology, but a combination of technology, processes, and critical thinking. It helped me see how defensive and offensive security work together to protect systems and reduce risk. This learning experience also showed me that cyber security is a broad field with many career opportunities and continuous challenges.
