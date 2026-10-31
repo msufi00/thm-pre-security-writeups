@@ -16,7 +16,7 @@
 
 ## Tasks & Answers
 
-### Task 1
+### Task 1 Think like a Hacker!
 **Question:** What is offensive security?
 
 **Answer:** Offensive security is an approach that evaluates system security by simulating attacks to identify weaknesses before unauthorized parties can find and exploit them.
@@ -27,7 +27,7 @@
 
 ---
 
-### Task 2
+### Task 2 Starting the Lab
 **Question:** Why is offensive security useful?
 
 **Answer:** It helps organizations identify system weaknesses, understand potential risks, and improve security before a real attack occurs.
@@ -38,7 +38,7 @@
 
 ---
 
-### Task 3
+### Task 3 Find Hidden Pages
 **Question:** Is offensive security the same as illegal activity?
 
 **Answer:** No. Proper offensive security is performed ethically and with authorization, such as penetration testing or red teaming, and differs from unauthorized hacking.
