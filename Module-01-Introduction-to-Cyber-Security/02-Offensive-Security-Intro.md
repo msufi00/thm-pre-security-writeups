@@ -45,7 +45,7 @@
 
 **Screenshot:**
 
-![Task 3 - Offensive Security](./images/task1-3.png)
+![Task 3 - Offensive Security](./image/task1-3.png)
 
 ## Notes
 - Offensive security involves thinking like an attacker, but within a legitimate and authorized context.
