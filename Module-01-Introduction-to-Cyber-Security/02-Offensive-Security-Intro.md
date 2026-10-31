@@ -23,7 +23,7 @@
 
 **Screenshot:**
 
-![Task 1 - Offensive Security](./images/task1-1.png)
+![Task 1 - Offensive Security](./image/task1-1.png)
 
 ---
 
