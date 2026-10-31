@@ -1,42 +1,118 @@
-# Task 1 - Defensive Security Introduction
+# Defensive Security Intro
 
-## Room / Topic
-- Defensive Security Introduction
+**Room Link:** [TryHackMe – Defensive Security Intro](https://tryhackme.com/room/defensivesecurity)
+**Module:** Module 1 – Introduction to Cyber Security
+**Difficulty:** Easy
+**Status:** ✅ Completed
 
 ## Objective
-- Identify what defensive security is.
-- Understand the role of people who protect systems, networks, and data.
+- Experience the role of a defender using a simulated security dashboard.
+- Spot a suspicious alert, investigate it, and stop the attacker.
 
 ## Key Concepts
-- Security controls
-- Defense in depth
-- Risk management
-- Monitoring and logging
-- Incident response
+- **Defensive security** – noticing attackers, protecting the organisation and stopping the attack.
+- **Security dashboard / alerts** – a screen that shows what is happening on company systems.
+- **Alert triage** – picking the important alert out of the noisy ones.
+- **Containment controls** – block the source, rate-limit requests, turn on filtering.
 
-## Tasks & Answers
+---
 
-### Task 1
-**Question:** What is defensive security?
+## Task 1 – You're the First Line of Defence
 
-**Answer:** Defensive security refers to the measures taken to protect systems, networks, data, and users from attacks, threats, and vulnerabilities.
+**Summary:** Hackers are constantly testing company websites for ways in. The people whose job is to notice them, protect the company and stop them are called **defenders**. No prior experience is needed for this room.
 
-### Task 2
-**Question:** What are examples of defensive security activities?
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What does a defender do when a hack is detected? | `Investigate and stop the hackers` |
 
-**Answer:** Examples include firewalls, antivirus software, patching, access control, encryption, logging, monitoring, backups, and user security awareness training.
+**Notes:** A defender responds to an attack by investigating and stopping it. "Hacking back" is not part of the job.
 
-### Task 3
-**Question:** Why is defensive security important?
+**Screenshot:**
 
-**Answer:** Because organizations need to reduce the risk of data breaches, loss of assets, and service disruption caused by cyber attacks.
+![Task 1](./image/task2-1.png)
 
-## Notes
-- Defensive security focuses on prevention and detection.
-- It is not only about technology, but also about processes and security culture.
-- Understanding threats and risks is the foundation before implementing protection measures.
+---
 
-## Reflection
-- I learned that cyber security is not only about attacks, but also about how organizations protect their assets.
-- I need to understand monitoring, hardening, and response planning more deeply.
-- In conclusion, defensive security is the primary layer of information security.
+## Task 2 – Something Looks Wrong ...
+
+**Summary:** The room simulates a **Security Hub** dashboard used by a SOC (Security Operations Center). The skill of a good defender is recognising the *important* alert among the noisy ones. One critical alert needs attention: *"Someone is poking at the admin pages"* – an attacker is trying lots of hidden web addresses on the bank's site.
+
+**Alert details:**
+- Severity: **Critical**
+- Source IP: `32.122.195.63`
+- Network owner shown on the alert: AS14061 DigitalOcean
+- Technique tag on the alert: T1595.001, confidence 0.94
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What IP address is the attack coming from? | `32.122.195.63` |
+
+**Notes:** This matches the attacker's side of the story in the Offensive Security Intro room: the attacker guesses hidden page names (like `dirb` did), and the defender sees that activity as an alert.
+
+**Screenshots:**
+
+![Task 2 – dashboard alert](./image/task2-2.png)
+
+![Task 2 – answer accepted](./image/task2-2-2png.png)
+
+---
+
+## Task 3 – What are Hackers Looking For?
+
+**Summary:** Clicking **Investigate** on the alert shows every page the attacker tried to open. Thinking about how a hacker works helps the defender. Hackers can be aggressive (many attempts quickly) or quiet and patient.
+
+**Pages the attacker tried:**
+
+| URL | Note |
+|-----|------|
+| `https://fakebank.thm/admin` | Most recent |
+| `https://fakebank.thm/login` | |
+| `https://fakebank.thm/backup` | |
+
+Summary on the dashboard: 3 pages tried, 0 got in.
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What is the latest URL the hacker found? | `https://fakebank.thm/admin` |
+
+**Notes:** The attacker went after pages that look valuable (admin, login, backup). Reviewing which pages are targeted shows what the attacker wants.
+
+**Screenshot:**
+
+![Task 3](./image/task2-3.png)
+
+---
+
+## Task 4 – Stop The Hack
+
+**Summary:** Once the attacker and their behaviour are known, the defender takes action. Under the **Respond** tab, three protections must be deployed:
+
+1. **Block the attacker** – block IP `32.122.195.63` at the edge.
+2. **Slow their requests** – limit how fast the admin pages can be hit (rate limiting).
+3. **Turn on protection** – filter out this kind of probing.
+
+After all 3/3 controls are deployed, the dashboard shows "Threat Neutralised" and a flag.
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | Copy the flag that appears when the hacker has been stopped | `THM{threat_stopped}` |
+
+**Notes:** Each control does a different job. Blocking removes the known attacker, rate limiting makes automated guessing impractical, and filtering protects against the same behaviour from other sources in the future.
+
+**Screenshots:**
+
+Responding to the alert (2 of 3 controls active):
+
+![Task 4 – controls](./image/task2-4-1.png)
+
+Threat neutralised and flag:
+
+![Task 4 – flag](./image/task2-4-2.png)
+
+---
+
+## Takeaways
+- Defenders watch dashboards, pick out the important alert, investigate it, then respond.
+- Investigation answers *who* (source IP) and *what* (pages attempted).
+- Response combines several layers: block, slow down and filter.
+- Offensive and defensive security are two views of the same event, and each side helps the other improve.
