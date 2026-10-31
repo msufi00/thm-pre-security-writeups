@@ -39,13 +39,17 @@
 
 ## Task 3 – Find Hidden Pages
 
-**Summary:** 
+**Summary:** ...
 
 | # | Question | Answer |
 |---|----------|--------|
-| 1 | | `` |
+| 1 | ... | `...` |
 
-**Notes:** 
+**Notes:** ...
+
+**Screenshot:**
+
+![Task 3](./image/task1-3.png)
 
 ---
 
